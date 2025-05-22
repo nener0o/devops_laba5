@@ -7,3 +7,4 @@ WORKDIR /app
 COPY ./src /app/src
 
 ENTRYPOINT ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "80"]
+
